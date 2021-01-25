@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bezos laughs",
+    "version": "1.0",
+
+    "description": "happy",
+
+    "icons": {
+        "48": "icons/icon.png"
+    },
+
+    "content_scripts": [
+        {
+        "matches": ["*://*.amazon.de/*"],
+        "js": ["laughs.js"]
+        }
+    ]  
+}
